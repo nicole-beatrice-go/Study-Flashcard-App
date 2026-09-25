@@ -1,7 +1,17 @@
 # Stoodi-App
-A study app that allows users to create flashcards, adjust their difficulty, and toggle showing/hiding the answers
+
+A React study app that allows users to create flashcards, adjust their difficulty level, and toggle showing or hiding answers.
 
 ## How to Run
-- Open a cloned version locally in VSCode
-- In the terminal, run `npm install`
-- Run `npm start`
+
+1. Clone the repository and open the project in VSCode.
+2. In the terminal, run:
+
+   ```bash
+   npm install
+   ```
+3. Start the app:
+
+   ```bash
+   npm start
+   ```
