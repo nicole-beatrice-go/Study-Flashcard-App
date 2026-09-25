@@ -1,0 +1,86 @@
+/* Basic card styling */
+.card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    color: black;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Card header styling */
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Card content styling */
+.card-content {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Card footer styling */
+.card-footer {
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Example button styling inside the card */
+.card-footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-footer button:hover {
+    background-color: #0056b3;
+}
+
+.card-footer button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.difficulty-selector {
+    margin-top: 8px;
+  }
+  
+button {
+    margin-right: 8px;
+}
+
+.box1 {
+    color: red;
+}
+
+.box2 {
+    color: purple;
+}
+
+.box3 {
+    color: blue;
+}
+
+.box4 {
+    color: yellow;
+}
+
+.box5 {
+    color: green;
+}

@@ -1,0 +1,76 @@
+/* Basic container styling for the form */
+
+.new-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: black;
+}
+
+/* Styling for the form inputs container */
+.new-card_allInputs {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: black;
+}
+
+/* Styling for each input group */
+.new-expense_input {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.new-expense_input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.new-expense_input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+.new-expense_input input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    color: black;
+}
+
+/* Styling for the form actions */
+.new-card_actions {
+    text-align: right;
+    color: black;
+}
+
+.new-card_actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+}
+
+.new-card_actions button:hover {
+    background-color: #0056b3;
+    color: black;
+}
+
+.new-card_actions button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    color: black;
+}
